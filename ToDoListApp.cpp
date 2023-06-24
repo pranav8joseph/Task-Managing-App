@@ -57,7 +57,7 @@ do {
         std::getline(std::cin, newTask);
         user_tasks.push_back(newTask);
     } else if (choice == "2") {
-        std::cout << "Please enter the number on the list next to the task you would like to remove: ";
+        std::cout << "Please enter the number on the list next to the task you would like to remove: \n";
         std::cout << "Your task list:\n";
         for (int i = 0; i < user_tasks.size(); i++) {
             std::cout << "[" << i << "] " << user_tasks[i] << "\n";
